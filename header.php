@@ -42,8 +42,7 @@ bloginfo('name');
 		<div class="navbar navbar-inverse navbar-header navbar-fixed-top">
 			<div class="navbar-inner">
 				<div class="container">
-					<a class="brand" href="<?php echo esc_url(home_url('/')); ?>"><i
-						class="icon-home icon-white"> </i> <?php echo bloginfo('name'); ?>
+					<a class="brand" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri();?>/img/logo-32x32.png" alt="" /> <?php echo bloginfo('name'); ?>
 					</a>
 					<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
 					<a class="btn btn-navbar" data-toggle="collapse"
