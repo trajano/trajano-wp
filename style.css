@@ -31,6 +31,12 @@ General comments (optional).
 
 }
 
+#sidebar .sidebar-inner ul ul>li {
+
+  font-size: 90%
+
+}
+
 #sidebar .sidebar-inner {
 	
 }
